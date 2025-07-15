@@ -1,4 +1,4 @@
-# AdOptimization Learning Notes I
+# AdOptimization Learning Notes I —— Job Description
 
 [TOC]
 
@@ -55,7 +55,7 @@ $$
 
 ## 过数据
 
-根据「过数文档」，依次查看每个产品的每个campaign
+根据「过数文档」，依次查看每个产品的每个campaign，并对每个campaign做出相应决策，如何做决策不在本文中讨论。
 
 ```mermaid
 graph TD
@@ -70,4 +70,22 @@ change --> |无需调整，下一计划| campagin
 campagin --> |完成计划调整，下一产品| product
 product --> |完成全部产品调整| ed[End]
 ```
+
+## 素材
+
+### 素材参考
+
+从AppMagic中找到自家产品的竞品，找到体量最大的产品
+
+在insightrackr上查找，按曝光量降序
+
+素材的一般要求：
+
+1. 简洁
+
+2. 清晰
+
+3. 时长20s～60s 
+
+### 素材创意
 
