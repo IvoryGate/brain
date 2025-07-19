@@ -13,8 +13,8 @@
 |  CPI : cost per install  | 单次安装费用 |
 |  CPM : cost per million  | 千次展示费用 |
 | CTR : click through rate |    点击率    |
-|  CVR : convertion rate   |    转化率    |
-|                          |              |
+|  CVR : conversion rate   |    转化率    |
+
 
 $$
 \text{CPI}=\frac{\text{cost}}{\text{install}}
@@ -38,10 +38,43 @@ $$
 \text{CPM}=\text{CPI}\cdot\text{CVR}\cdot\text{CTR}\times1000
 $$
 
+### 计费方式
 
+```mermaid
+graph LR
+impression --> CPM
+impression --> CPT
+impression --> CPC
+CPM --> conversion
+CPT --> conversion
+CPC --> conversion
+conversion --> CPA
+CPA --> CPD
+CPA --> CPI
+CPA --> CPS
+
+```
 
 
 ## 归因
+
+判断是什么原因促使用户下载应用，或激活应用后进行各种操作
+
+可用于帮助广告主分析用户质量
+
+自归因平台：
+
+1. Google
+
+2. Facebook
+
+三方归因平台：
+
+1. Aplovin
+
+2. Unity
+
+3. ...
 
 ## 市场调研
 
@@ -52,6 +85,8 @@ $$
 > Insightrackr: Insightrackr is a mobile marketing strategy analysis platform that  delivers real-time insights to fuel faster, smarter user growth.
 >
 > Google Play: *Google Play* gives you one place to find, enjoy, &  share Apps, Music, Movies & Books - instantly anywhere across the  web & android devices.
+
+
 
 ## 过数据
 
@@ -89,3 +124,48 @@ product --> |完成全部产品调整| ed[End]
 
 ### 素材创意
 
+要求：
+
+1. 新颖
+
+2. 有一定的曝光量
+
+### 素材测试
+
+通过投放平台后台数据，和三方归因平台数据定期对已投放的广告素材做出评估
+
+评估指标：
+
+1. 消耗占比
+
+2. CPM
+
+3. CTR
+
+4. CVR
+
+5. CPI
+
+6. 留存（ret1 ret3 ret7 ...）
+
+7. ROAS（roas3 roas7 roas15 ...） 
+
+分析表现好坏的原因：
+
+1. 表现形式
+
+2. 。。。
+
+> 素材数据测试详见[素材数据测试](/AdOptimization/AdOptimization%20Learning%20Notes%20III.markdown)
+
+
+
+## 余额监控
+
+每隔两周查看一次各产品的剩余预算与过去一周的消耗，需要保证剩余预算能够满足未来8周的消耗，避免因预算不足导致投放中止。
+
+## ROI拟合数据记录
+
+随着数据量的增加，预测模型能够更好的学习数据的特征和规律，模型的准确性和泛化能力也随之提升。故对于同一个campagin，在不同时期查看未来同一时刻的ROI预测的值也会有所不同。
+
+需要每日记录ROI数据的拟合情况，便于未来复盘和分析模型的问题。
