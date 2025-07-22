@@ -1,8 +1,10 @@
 # AdOptimization Learning Notes I —— Job Description
 
-[TOC]
+文章创建于：2025年07月10日
 
-> 
+最后编辑于：2025年07月22日
+
+[TOC]
 
 ## 术语
 
@@ -75,6 +77,10 @@ CPA --> CPS
 2. Unity
 
 3. ...
+
+### 由归因方式不同所产生的问题
+
+
 
 ## 市场调研
 

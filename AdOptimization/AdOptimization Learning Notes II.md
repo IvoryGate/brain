@@ -1,5 +1,9 @@
 # AdOptimization Learning Notes II —— Go-to-Market Strategy
 
+文章创建于：2025年07月14日
+
+最后编辑于：2025年07月22日
+
 [TOC]
 
 
@@ -27,3 +31,6 @@ graph LR
 1[常见指标优化] --> 15(revenue rate)
 1[常见指标优化] --> 16(pay rate)
 ```
+
+## 不同广告平台的异同
+
